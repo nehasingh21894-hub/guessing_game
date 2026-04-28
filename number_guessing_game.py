@@ -37,7 +37,7 @@ while True:
             # Give a hint (first letter)
             print(f"Hint: The word starts with '{secret_word[0]}'")
         else:
-            print("You have no more attempts!")
+            print("You have no more attempts! .")
 
     # If user failed to guess
     if guess != secret_word:
